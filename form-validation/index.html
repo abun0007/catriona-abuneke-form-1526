@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+ 
+<head>
+            <meta charset="UTF-8">
+            <title>Form Validation Assignment</title>
+            <script src="/js/main.js"> </script>
+            <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+ 
+<body>
+ 
+<h2>Form Assignment</h2>
+ 
+    <form id="theForm"  method="post" onSubmit="return validateTextbox();">
+        <form action="" method="post" novalidate>
+ 
+ 
+ 
+                <div class="row">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name=""> <br> 
+                </div>
+
+                <div class="row">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name=""><br>
+                </div>
+
+                <div class="row">
+                <label for="message">Message</label><br>
+                <input type="text" id="message" name=""> <br>
+                </div>
+
+                <div class="button">
+                <input type="submit" id="submit" value="Submit" value="Submit Form"> 
+                </div>
+
+    </form>
+ 
+</body>
+
+</html>
